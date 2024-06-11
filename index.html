@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Tailwind</title>
+  <link rel="stylesheet" href="/style.css" />
+  
+</head>
+<body class="h-screen bg-gradient-to-b from-gray-900 to-slate-800 text-white flex justify-center items-center">
+  <div id="container" class="max-w-[400px] w-full mx-auto bg-slate-800 p-4 rounded-lg">
+    <!-- Screen of the calculator -->
+    <div class="mb-4">
+      <input type="text" value="0" id="screen" class="w-full text-right p-2 bg-gray-900 border border-gray-700 rounded text-white">
+    </div>
+
+    <!-- Buttons -->
+    <div class="flex flex-wrap gap-2">
+      <div class="flex flex-wrap w-full">
+        <button class="flex-1">MC</button>
+        <button class="flex-1">MR</button>
+        <button class="flex-1">M+</button>
+        <button class="flex-1">M-</button>
+        <button class="flex-1">MS</button>
+        <button class="flex-1">M*</button>
+      </div>
+      <div class="flex flex-wrap w-full">
+        <button class="flex-1">2<sup>nd</sup></button>
+        <button class="flex-1">π</button>
+        <button class="flex-1">e</button>
+        <button class="flex-1">C</button>
+        <button class="flex-1">X</button>
+      </div>
+      <div class="flex flex-wrap w-full">
+        <button class="flex-1">x<sup>2</sup></button>
+        <button class="flex-1">1/x</button>
+        <button class="flex-1">|x|</button>
+        <button class="flex-1">exp</button>
+        <button class="flex-1">mod</button>
+      </div>
+      <div class="flex flex-wrap w-full">
+        <button class="flex-1"><sup>2</sup>&radic;x</button>
+        <button class="flex-1">(</button>
+        <button class="flex-1">)</button>
+        <button class="flex-1">n!</button>
+        <button class="flex-1">&divide;</button>
+      </div>
+      <div class="flex flex-wrap w-full">
+        <button class="flex-1">x<sup>y</sup></button>
+        <button class="flex-1 font-bold">7</button>
+        <button class="flex-1 font-bold">8</button>
+        <button class="flex-1 font-bold">9</button>
+        <button class="flex-1">&times;</button>
+      </div>
+      <div class="flex flex-wrap w-full">
+        <button class="flex-1">10<sup>x</sup></button>
+        <button class="flex-1 font-bold">4</button>
+        <button class="flex-1 font-bold">5</button>
+        <button class="flex-1 font-bold">6</button>
+        <button class="flex-1">&minus;</button>
+      </div>
+      <div class="flex flex-wrap w-full">
+        <button class="flex-1">log</button>
+        <button class="flex-1 font-bold">1</button>
+        <button class="flex-1 font-bold">2</button>
+        <button class="flex-1 font-bold">3</button>
+        <button class="flex-1">&plus;</button>
+      </div>
+      <div class="flex flex-wrap w-full">
+        <button class="flex-1">ln</button>
+        <button class="flex-1">&PlusMinus;</button>
+        <button class="flex-1 font-bold">0</button>
+        <button class="flex-1">.</button>
+        <button class="flex-1">&equals;</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
